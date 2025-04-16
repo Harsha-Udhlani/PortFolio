@@ -20,3 +20,8 @@ function openmenu() {
     sidemenu.style.right = "-200px";
 
 }
+document.getElementById('hamburger').addEventListener('click', function () {
+    let nav = document.getElementById('navbar');
+    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+});
+
